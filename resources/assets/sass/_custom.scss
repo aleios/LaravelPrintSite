@@ -1,0 +1,143 @@
+body {
+
+    @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+    @media(min-width:768px) {
+        body {
+            margin-top: 0px;
+        }
+    }
+
+    #wrapper {
+        padding-left: 0;    
+    }
+    
+    #page-wrapper {
+        width: 100%;        
+        padding: 0;
+        background-color: #fff;
+    }
+    
+    @media(min-width:768px) {
+        #wrapper {
+            padding-left: 225px;
+        }
+    
+        #page-wrapper {
+            padding: 22px 10px;
+        }
+    }
+    
+    /* Side Navigation */
+    
+    @media(min-width:768px) {
+        .side-nav {
+            position: fixed;
+            top: 0px;
+            left: 225px;
+            width: 225px;
+            margin-left: -225px;
+            border: none;
+            border-radius: 0;
+            overflow-y: auto;
+            background-color: #222;
+            bottom: 0;
+            overflow-x: hidden;
+            padding-bottom: 40px;
+        }
+    
+        .side-nav>li>a {
+            width: 225px;
+            border-bottom: 1px rgba(0,0,0,.3) solid;
+        }
+    
+        .side-nav li a:hover,
+        .side-nav li a:focus {
+            outline: none;
+            background-color: #1a242f !important;
+        }
+    }
+    
+    .side-nav>li>ul {
+        padding: 0;
+        border-bottom: 1px rgba(0,0,0,.3) solid;
+    }
+    
+    .side-nav>li>ul>li>a {
+        display: block;
+        padding: 10px 15px 10px 38px;
+        text-decoration: none;
+        color: #fff;    
+    }
+    
+    .side-nav>li>ul>li>a:hover {
+        color: #fff;
+    }
+
+    .navbar {
+        min-height:0px;
+        margin-bottom:0px;
+    }
+    
+    .navbar .nav > li > a > .label {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      top: 0px;
+      right: 6px;
+      font-size: 10px;
+      font-weight: normal;
+      min-width: 15px;
+      min-height: 15px;
+      line-height: 1.0em;
+      text-align: center;
+      padding: 2px;
+    }
+    
+    .navbar .nav > li > a:hover > .label {
+      top: 0px;
+    }
+
+    /* Topnav backgroun */
+    .topnav {
+        background-color: #222;
+        overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav>li>a {
+        width: 225px;
+        border-bottom: 1px rgba(0,0,0,.3) solid;
+    }
+
+    .topnav li a:hover,
+    .topnav li a:focus {
+        outline: none;
+        background-color: #1a242f !important;
+    }
+
+    .topnav .icon {
+        display: none;
+    } 
+
+    .panel-title a {
+        display: block;
+        padding: 10px 15px;
+        margin: -10px -15px;
+    }
+
+    .detail-panel {
+        background-color:#DDD;
+        padding:0px !important;
+        width:auto;
+    }
+}
